@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Soma de Pares e Ímpares (até 5)</title>
+</head>
+<body>
+    <h1>Soma de Números Pares e Ímpares (até 5)</h1>
+    <form id="formulario">
+        <label for="valor1">Valor 1:</label>
+        <input type="number" id="valor1" name="valor1" required>
+        <br>
+        <label for="valor2">Valor 2:</label>
+        <input type="number" id="valor2" name="valor2" required>
+        <br>
+        <label for="valor3">Valor 3:</label>
+        <input type="number" id="valor3" name="valor3" required>
+        <br>
+        <label for="valor4">Valor 4:</label>
+        <input type="number" id="valor4" name="valor4">  <br>
+        <label for="valor5">Valor 5:</label>
+        <input type="number" id="valor5" name="valor5">  <br>
+        <br>
+        <button type="button" onclick="somarParesImpares()">Somar Pares e Ímpares</button>
+    </form>
+    <br>
+    <div id="somaPares"></div>
+    <div id="somaImpares"></div>
+    <div id="mensagemFinal"></div>
+
+    <script src="maiorinteiro.js"></script>
+    <footer><a href='index.html'>Voltar</a></footer> <br><br>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    background-color: plum;
+    height: 43vh;
+    margin: 200px;
+    position:relative;
+    top: -140px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+}
+
+
+button, a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: hotpink;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+}

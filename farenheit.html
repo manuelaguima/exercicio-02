@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Conversor de Temperatura (F/C)</title>
+</head>
+<body>
+    <h1>Conversor de Temperatura (Fahrenheit/Celsius)</h1>
+
+    <h2>Conversão de Fahrenheit para Celsius</h2>
+    <form id="fahrenheitParaCelsius">
+        <label for="valorFahrenheit">Valor em Fahrenheit:</label>
+        <input type="number" id="valorFahrenheit" name="valorFahrenheit" required>
+        <br>
+        <button type="button" onclick="converterFahrenheitParaCelsius()">Converter para Celsius</button>
+    </form>
+    <br>
+    <div id="resultadoFahrenheitParaCelsius"></div>
+
+    <h2>Conversão de Celsius para Fahrenheit</h2>
+    <form id="celsiusParaFahrenheit">
+        <label for="valorCelsius">Valor em Celsius:</label>
+        <input type="number" id="valorCelsius" name="valorCelsius" required>
+        <br>
+        <button type="button" onclick="converterCelsiusParaFahrenheit()">Converter para Fahrenheit</button>
+    </form>
+    <br>
+    <div id="resultadoCelsiusParaFahrenheit"></div>
+
+    <script src="farenheit.js"></script>
+    <footer><a href='index.html'>Voltar</a></footer> <br><br>
+</body>
+</html>

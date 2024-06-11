@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Verificação de Idade para Votação</title>
+</head>
+<body>
+    <h1>Verificação de Idade para Votação</h1>
+    <form id="formulario">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required>
+        <br>
+        <br>
+        <button type="button" onclick="verificarIdade()">Verificar Idade</button>
+    </form>
+    <br>
+    <div id="resultado"></div>
+
+    <script src="idade.js"></script>
+    <footer><a href='index.html'>Voltar</a></footer> <br><br>
+</body>
+</html>

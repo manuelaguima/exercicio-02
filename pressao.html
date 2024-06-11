@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Unidade de Pressão (mmHg/PSI)</title>
+</head>
+<body>
+    <h1>Conversor de Pressão (mmHg/PSI)</h1>
+
+    <h2>Conversão de mmHg para PSI</h2>
+    <form id="mmHgParaPSI">
+        <label for="valorMmHg">Valor em mmHg:</label>
+        <input type="number" id="valorMmHg" name="valorMmHg" required>
+        <br>
+        <button type="button" onclick="converterMmHgParaPSI()">Converter para PSI</button>
+    </form>
+    <br>
+    <div id="resultadoMmHgParaPSI"></div>
+
+    <h2>Conversão de PSI para mmHg</h2>
+    <form id="PSIParaMmHg">
+        <label for="valorPSI">Valor em PSI:</label>
+        <input type="number" id="valorPSI" name="valorPSI" required>
+        <br>
+        <button type="button" onclick="converterPSIParaMmHg()">Converter para mmHg</button>
+    </form>
+    <br>
+    <div id="resultadoPSIParaMmHg"></div>
+
+    <script src="pressao.js"></script>
+    <footer><a href='index.html'>Voltar</a></footer> <br><br>
+</body>
+</html>
