@@ -1,37 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
-    <title>Divisíveis por 3, 5 e Ambos (até 5)</title>
+    <script src="divisaointeira.js" defer></script>
+    <title>Divisibilidade por 3 e 5</title>
 </head>
 <body>
-    <h1>Números Divisíveis por 3, 5 e Ambos (até 5)</h1>
-    <form id="formulario">
-        <label for="valor1">Valor 1:</label>
-        <input type="number" id="valor1" name="valor1" required>
-        <br>
-        <label for="valor2">Valor 2:</label>
-        <input type="number" id="valor2" name="valor2" required>
-        <br>
-        <label for="valor3">Valor 3:</label>
-        <input type="number" id="valor3" name="valor3" required>
-        <br>
-        <label for="valor4">Valor 4:</label>
-        <input type="number" id="valor4" name="valor4">  <br>
-        <label for="valor5">Valor 5:</label>
-        <input type="number" id="valor5" name="valor5">  <br>
-        <br>
-        <button type="button" onclick="contarDivisiveis()">Contar Divisíveis</button>
-    </form>
-    <br>
-    <div id="divisiveis3e5"></div>
-    <div id="divisiveis3"></div>
-    <div id="divisiveis5"></div>
+    <h1>Análise de Divisibilidade</h1>
+    <p>Digite até 5 números e descubra quantos são divisíveis por 3, 5 ou ambos!</p>
+    <input type="number" id="numero1" placeholder="Digite um número">
+    <input type="number" id="numero2" placeholder="Digite outro número">
+    <input type="number" id="numero3" placeholder="Digite mais um número">
+    <input type="number" id="numero4" placeholder="Digite outro número (opcional)">
+    <input type="number" id="numero5" placeholder="Digite um último número (opcional)">
+    <button onclick="numeros()">Analizar</button>
+    <div id="resultadosDiv"></div>
 
-    <script src="divisaointeira.js"></script>
-    <footer><a href='index.html'>Voltar</a></footer> <br><br>
+    
 </body>
 </html>

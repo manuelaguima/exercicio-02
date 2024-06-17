@@ -1,12 +1,13 @@
 body{
     background-color: plum;
-    height: 43vh;
-    margin: 200px;
-    position:relative;
-    top: -140px;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;    
     font-family: Georgia, 'Times New Roman', Times, serif;
     align-items: center;
     text-align: center;
+    flex-direction: column;
 }
 
 
